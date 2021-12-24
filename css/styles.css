@@ -264,15 +264,14 @@ align-items: center;
 }
 .work-description{
 position: absolute;
+bottom: 0px;
 width: 100%;
 padding-top:27px ;
 padding-bottom: 27px;
 
 
 color: var(--secondary-accent-color);
-background-color: #2F303ACC;
-
-
+background-color: rgba(47, 48, 58, 0.8);
 
 font-style: normal;
 font-weight: bold;
