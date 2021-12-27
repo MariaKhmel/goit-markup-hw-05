@@ -544,7 +544,7 @@ header {
 .social-link:focus {
   background-color: var(--accent-text-color);
 }
-.social-icon {
+.social-follow .social-icon {
   fill: var(--secondary-accent-color);
 }
 /* Portfolio */
