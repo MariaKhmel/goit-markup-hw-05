@@ -548,7 +548,7 @@ header {
 .footer-link:focus {
   background-color: var(--accent-text-color);
 }
-.social-follow .social-icon {
+.footer-link .social-icon {
   fill: var(--secondary-accent-color);
 }
 
