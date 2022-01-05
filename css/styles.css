@@ -300,18 +300,16 @@ header {
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  }
-  .social-icon {
+}
+.social-icon {
   fill: var(--icons-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
   .social-link:hover .social-icon,
   .social-link:focus .social-icon {
     fill: var(--secondary-accent-color);
   }
+
   .social-link:hover,
   .social-link:focus {
     background-color: var(--accent-text-color);
@@ -360,7 +358,6 @@ header {
   .client-icon {
     fill: var(--icons-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
   }
 
   .client-logo:focus,
@@ -542,7 +539,7 @@ header {
   border-radius: 50%;
   background-color: #ffffff1a;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link:hover,
 .footer-link:focus {
@@ -552,11 +549,6 @@ header {
   fill: var(--secondary-accent-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-  .footer-link:hover .social-icon,
-  .footer-link:focus .social-icon {
-    background-color:var(--accent-text-color);
-  }
 
 /* Portfolio */
 
